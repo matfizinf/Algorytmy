@@ -1,3 +1,4 @@
+#Algorytm nr 1
 def szyfrowanie_kolumnowe1(n, s, w, k):
     T = []
     t = 0
@@ -24,6 +25,7 @@ w = 5
 k = 4
 print(szyfrowanie_kolumnowe1(n, s, w, k))
 
+#Algorytm nr 2
 def szyfrowanie_kolumnowe2(n, s, w, k):
     for i in range(n, w * k):
         s = s + 'X'
