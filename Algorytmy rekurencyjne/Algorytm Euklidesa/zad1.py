@@ -15,7 +15,7 @@ def NWD2(a, b):
         a = pom
     return a
 
-#Algorytm nr 3 - wersja rekorencyjna z odejmowaniem
+#Algorytm nr 3 - wersja rekurencyjna z odejmowaniem
 def NWD3(a, b):
     if a != b:
         if a > b:
@@ -25,7 +25,7 @@ def NWD3(a, b):
     else:
         return a
 
-#Algorytm nr 3 - wersja rekurencyjna z resztą z dzielenia
+#Algorytm nr 4 - wersja rekurencyjna z resztą z dzielenia
 def NWD4(a, b):
     if b != 0:
         return NWD4(b, a % b)
